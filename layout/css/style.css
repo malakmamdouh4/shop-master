@@ -1,0 +1,372 @@
+
+.A
+{
+    background-color: rgb(0, 108, 115) ;
+    color: white ;
+    padding: 10px ;
+}
+.A span
+{
+    display: inline-block ;
+    border: 1px solid brown;
+    padding: 4px 8px ;
+    margin-right:  40px ;
+    margin-left: 40px ;
+    border-radius: 6px ;
+}
+.navbar-brand span
+{
+    font-weight: bold ;
+    font-size: 30px ;
+    color: brown ;
+    font-family: 'Indie Flower' , cursive;
+}
+.navbar-brand span:last-child
+{
+    color: gray ;
+}
+.navbar-nav .nav-link
+{
+    font-size: 12px ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    color: gray ;
+    padding-right: 300px ;
+    margin-left: 20px ;
+}
+.navbar-nav a:hover
+ {
+     color:rgb(210, 70, 96) ;
+ }
+ .navbar-nav .active > .nav-link
+ {
+    color: black !important
+ }
+.slider .carousel-item
+{
+    -webkit-background-size: 100% 100% ;
+    -moz-background-size: 100% 100% ;
+    -o-background-size: 100% 100% ;
+    background-size: 100% 100% ;
+}
+.slider-img{
+    height: 700px;
+}
+@media (max-width: 700px) {
+    .slider-img{
+        height: 300px;
+    }
+}
+@media (max-width: 768px) and (min-width: 701px) {
+    .slider-img{
+        height: 500px;
+    }
+}
+/*.slider .carousel-one*/
+/*{*/
+/*    background-image: url(../img/1.jpg) ;*/
+/*}*/
+/*.slider .carousel-two*/
+/*{*/
+/*    background-image: url(../img/5.jpg) ;*/
+/*}*/
+/*.slider .carousel-three*/
+/*{*/
+/*    background-image: url(../img/6.jpg) ;*/
+/*}*/
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    /*background: #eee;*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.card-edit
+{
+    /*width: 230px ;*/
+    /*height: 400px ;*/
+    /*margin-left: 40px ;*/
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 10px gray ;
+}
+.div1 , .div3
+{
+    margin-top: 40px ;
+}
+.div2 , .div4
+{
+    margin-top: 20px ;
+}
+.img-card
+{
+    width: 100% ;
+    height: 200px ;
+}
+.head
+{
+    padding: 10px ;
+    margin-top: 0;
+    text-align: center;
+    color:rgb(207, 67, 86) ;
+}
+.text
+{
+    padding: 10px ;
+    padding-top: 0;
+    text-align: center;
+    color: dimgray;
+}
+.show-more
+{
+    width: 140px ;
+    padding: 10px ;
+    display: block;
+    margin: auto ;
+    background-color: gray;
+    color: white ;
+    text-align: center;
+    text-decoration: none;
+}
+.parent
+{
+    overflow: hidden;
+    margin: auto;
+}
+.info hr
+{
+    width: 70%;
+    color: #DDD;
+}
+
+.image img
+{
+
+    width: 100%;
+    height: 300px;
+    /*padding-left: 20px;*/
+    margin-top: 30px;
+}
+
+.info p
+{
+    color: #666 ;
+    line-height: 23px ;
+    text-align: center;
+
+}
+.info h4 , .info h5
+{
+    text-align: center;
+
+    padding-top: 10px;
+}
+.info div div
+{
+
+    border: 1px solid #DDD ;
+    /*margin-right: 20px;*/
+    margin-top: 30px;
+}
+
+.info a
+{
+    /*margin-left: 35%;*/
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    background: none;
+    border: 1px solid black;
+}
+
+.Projects
+{
+    overflow: hidden;
+    padding-top: 30px;
+    /*padding-bottom: 30px ;*/
+    line-height: 23px ;
+    /*width: 600px;*/
+    /*margin: auto;*/
+}
+.Projects h2
+{
+    margin: 30px 0 20px 40px ;
+    text-align: center;
+}
+.Projects p
+{
+    width: 65%;
+    color: #666 ;
+    line-height: 23px ;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+.Projects .links
+{
+    margin-left: 100px;
+}
+.Projects a
+{
+    color: rgb(153, 95, 95);
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.Projects a:hover
+{
+    color: red;
+}
+.portfolio
+{
+    overflow: hidden;
+    text-align: center ;
+    padding-top: 30px ;
+    padding-bottom:30px  ;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.portfolio img
+{
+    /*width: 95% ;*/
+    width: 100%;
+    height: 250px;
+    margin-top: 10px ;
+    /*padding: 3px ;*/
+    background-color: #FFF ;
+    border: 1px solid #CCC ;
+    box-shadow: 3px 3px 3px rgb(50, 56, 54);
+}
+.footer
+{
+    overflow: hidden;
+    padding-bottom: 30px ;
+    padding-top: 30px ;
+    background-color: #191E22;
+    color: white ;
+    line-height: 23px ;
+    position: relative;
+    margin-top: 50px;
+}
+.footer .first
+{
+    float: left;
+    /*width: 50%;*/
+    margin-top: 40px;
+}
+.footer .end
+{
+    float: left;
+    /*width: 40%;*/
+    margin-left: 40px ;
+    margin-top: 30px ;
+}
+.footer .end p
+{
+    margin-top: 20px ;
+    color: rgb(90, 93, 97);
+}
+.footer ul
+{
+    list-style: none ;
+    float: left ;
+}
+.footer ul li
+{
+    padding-left : 20px ;
+    float: left ;
+    font-weight: 700;
+}
+.footer ul li i
+{
+    font-size: 25px ;
+    width: 20px ;
+    color: rgb(207, 67, 86) ;
+    margin-left: 10px ;
+    margin-right: 15px ;
+}
+.main
+{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px ;
+    text-align: center;
+}
+.main img
+{
+    width: 300px ;
+    height: 210px ;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 8px gray ,  -4px -4px 8px gray;
+    opacity: 0.7;
+}
+.main h3
+{
+    color: rgb(54, 54, 27);
+    font-weight: 700;
+}
+.main img:hover
+{
+    transition: all 0.7s ease-in-out;
+    opacity: 1;
+}
+.form
+{
+    /*width: 60% ;*/
+    /*height: 700px;*/
+    /*margin: auto;*/
+    margin-top: 30px;
+    /*margin-bottom: 30px;*/
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+form h2
+{
+    text-align: center;
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+}
+form label
+{
+    font-weight: 600;
+    /*margin-left: 60px;*/
+}
+.form-control
+{
+    margin-top: 7px;
+    /*margin-left: 70px;*/
+    /*margin-bottom: 20px;*/
+}
+#exampleInputPassword1
+{
+    display: inline-block;
+}

@@ -1,0 +1,63 @@
+
+.A
+{
+    background-color: rgb(0, 108, 115) ;
+    color: white ;
+    padding: 10px ;
+}
+.A span
+{
+    display: inline-block ;
+    border: 1px solid brown;
+    padding: 4px 8px ;
+    margin-right:  40px ;
+    margin-left: 40px ;
+    border-radius: 6px ;
+}
+.navbar-brand span
+{
+    font-weight: bold ;
+    font-size: 30px ;
+    color: brown ;
+    font-family: 'Indie Flower' , cursive;
+}
+.navbar-brand span:last-child
+{
+    color: gray ;
+}
+.navbar-nav .nav-link
+{
+    font-size: 12px ;
+    text-transform: uppercase ;
+    font-weight: bold ;
+    color: gray ;
+    padding-right: 300px ;
+    margin-left: 20px ;
+}
+.navbar-nav a:hover
+ {
+     color:rgb(210, 70, 96) ;
+ }
+ .navbar-nav .active > .nav-link
+ {
+    color: black !important
+ }
+.slider .carousel-item
+{
+    -webkit-background-size: 100% 100% ;
+    -moz-background-size: 100% 100% ;
+    -o-background-size: 100% 100% ;
+    background-size: 100% 100% ;
+}
+/*.slider .carousel-one*/
+/*{*/
+/*    background-image: url(../img/1.jpg) ;*/
+/*}*/
+/*.slider .carousel-two*/
+/*{*/
+/*    background-image: url(../img/5.jpg) ;*/
+/*}*/
+/*.slider .carousel-three*/
+/*{*/
+/*    background-image: url(../img/6.jpg) ;*/
+/*}*/
